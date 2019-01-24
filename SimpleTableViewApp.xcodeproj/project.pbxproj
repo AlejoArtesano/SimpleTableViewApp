@@ -11,6 +11,7 @@
 		5BA6C87521F9D32A004367B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA6C87321F9D32A004367B8 /* Main.storyboard */; };
 		5BA6C87721F9D32C004367B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA6C87621F9D32C004367B8 /* Assets.xcassets */; };
 		5BA6C87A21F9D32C004367B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA6C87821F9D32C004367B8 /* LaunchScreen.storyboard */; };
+		5BA6C88221F9E39C004367B8 /* StoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6C88121F9E39C004367B8 /* StoriesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		5BA6C87621F9D32C004367B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA6C87921F9D32C004367B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA6C87B21F9D32C004367B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA6C88121F9E39C004367B8 /* StoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				5BA6C86F21F9D32A004367B8 /* AppDelegate.swift */,
 				5BA6C87321F9D32A004367B8 /* Main.storyboard */,
+				5BA6C88121F9E39C004367B8 /* StoriesTableViewController.swift */,
 				5BA6C87621F9D32C004367B8 /* Assets.xcassets */,
 				5BA6C87821F9D32C004367B8 /* LaunchScreen.storyboard */,
 				5BA6C87B21F9D32C004367B8 /* Info.plist */,
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA6C88221F9E39C004367B8 /* StoriesTableViewController.swift in Sources */,
 				5BA6C87021F9D32A004367B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
