@@ -25,42 +25,33 @@ class StoriesTableViewController: UITableViewController {
         Headline(id: 3, title: "In ac ante sapien", text: "Aliquam egestas ultricies dapibus. Nam molestie nunc.", image: "Cantaloupe"),
         ]
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
-
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         
         return 1
     }
-
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return headlines.count
         
     }
-
-    
-//    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-//
-//        return "Section \(section)"
-//    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
-
+        
         let headline = headlines[indexPath.row]
         cell.textLabel?.text = headline.title
         cell.detailTextLabel?.text = headline.text
         cell.imageView?.image = UIImage(named: headline.image)
-
+        
         return cell
     }
     
-
 }
