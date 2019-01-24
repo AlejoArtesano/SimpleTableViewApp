@@ -32,15 +32,15 @@ class StoriesTableViewController: UITableViewController {
         return 5
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
 
-        // Configure the cell...
+        cell.textLabel?.text = "Section \(indexPath.section) Row \(indexPath.row)"
 
         return cell
     }
-    */
+ 
 
     /*
     // Override to support conditional editing of the table view.
