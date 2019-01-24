@@ -20,9 +20,12 @@ struct Headline {
 class StoriesTableViewController: UITableViewController {
     
     var headlines = [
-        Headline(id: 1, title: "Lorem Ipsum", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", image: "Apple"),
-        Headline(id: 2, title: "Aenean condimentum", text: "Ut eget massa erat. Morbi mauris diam, vulputate at luctus non.", image: "Banana"),
-        Headline(id: 3, title: "In ac ante sapien", text: "Aliquam egestas ultricies dapibus. Nam molestie nunc.", image: "Cantaloupe"),
+        Headline(id: 1, title: "Apple", text: "An apple is a sweet, edible fruit produced by an apple tree (Malus pumila).", image: "Apple"),
+        Headline(id: 2, title: "Apricot", text: "An apricot is a fruit, or the tree that bears the fruit, of several species in the genus Prunus (stone fruits).", image: "Apricot"),
+        Headline(id: 3, title: "Banana", text: "A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.", image: "Banana"),
+        Headline(id: 4, title: "Blueberry", text: "Blueberries are perennial flowering plants with blue– or purple–colored berries. They are classified in the section Cyanococcus within the genus Vaccinium.", image: "Blueberry"),
+        Headline(id: 5, title: "Cantaloupe", text: "Cantaloupe (muskmelon, mushmelon, rockmelon, sweet melon) or spanspek (South Africa) is a variety of the Cucumis melo species in the Cucurbitaceae family.", image: "Cantaloupe"),
+        
         ]
     
     
