@@ -25,8 +25,10 @@ class StoriesTableViewController: UITableViewController {
         Headline(id: 3, title: "In ac ante sapien", text: "Aliquam egestas ultricies dapibus. Nam molestie nunc.", image: "Cantaloupe"),
         ]
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.isEditing = true
         
     }
     
