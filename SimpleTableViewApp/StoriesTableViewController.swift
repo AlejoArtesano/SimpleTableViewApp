@@ -66,5 +66,12 @@ class StoriesTableViewController: UITableViewController {
     }
     
     
+    // Reordering control to move cells. Elements in the underlying data list are updated.
+    
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let movedObject = self.headlines[sourceIndexPath.row]
+        headlines.remove(at: sourceIndexPath.row)
+        headlines.insert(movedObject, at: destinationIndexPath.row)
+    }
     
 }
